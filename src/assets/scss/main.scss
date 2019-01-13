@@ -1,3 +1,13 @@
-body {
-  margin: 0px;
-}
+// Base
+@import "./base/reset.scss";
+
+// Layout
+@import "./layout/navigation_bar.scss";
+@import "./layout/page.scss";
+@import "./layout/footer.scss";
+
+// Module
+@import "./module/message.scss";
+@import "./module/button.scss";
+@import "./module/question.scss";
+@import "./module/score.scss";

@@ -1,0 +1,30 @@
+.navigaton_bar {
+  display: flex;
+  justify-content: center;
+  background-image: linear-gradient(to top right, #1c9ff5, #1d9ef3);
+
+
+  &__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    max-width: 1000px;
+    height: 60px;
+    width: 100%;
+  }
+
+  &__item {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 15px;
+  }
+
+  &__brand {
+    margin-right: auto;
+    font-size: 28px;
+    font-weight: 600;
+    color: #fff;
+    text-decoration: none;
+  }
+}
