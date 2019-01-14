@@ -5,5 +5,15 @@
     border-radius: 3px;
     border: 1px solid #379e48;
     cursor: pointer;
+    text-decoration: none;
+
+    -webkit-transition: all 200ms linear;
+    -ms-transition: all 200ms linear;
+    transition: all 200ms linear;
+
+    &[disabled] {
+      background: #c3c3c3;
+      border: 1px solid #b3b3b3;
+    }
   }
 }

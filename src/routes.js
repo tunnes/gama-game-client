@@ -1,10 +1,10 @@
 import React from 'react'
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
 
-import Home from './components/home'
+import Home from './containers/home'
 import Login from './components/login'
 import Contact from './components/contact'
-import Game from './components/game'
+import Game from './containers/game'
 import About from './components/about'
 import NotFound from './components/not_found'
 

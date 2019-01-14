@@ -4,10 +4,8 @@ const INITIAL_STATE = null
 
 export default (state = INITIAL_STATE, action) => {
   switch (action.type) {
-    case type.SET_GAME:
+    case type.SET_GAME_QUESTION:
       return action.payload
-    case type.GET_GAME_ERROR:
-      return { error: action.payload }
     default:
       return state
   }
