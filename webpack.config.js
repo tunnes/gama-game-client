@@ -37,7 +37,7 @@ module.exports = {
     rules: [
       { test: /.js[x]?$/, use: ['babel-loader'] },
       { test: /\.s?[ac]ss$/, use: [miniCSS.loader, 'css-loader', 'sass-loader'] },
-      { test: /\.(woff|woff2|eot|ttf|svg)$/, use: ['file-loader'] }
+      { test: /\.(woff|woff2|eot|otf|svg)$/, use: ['file-loader'] }
     ]
   }
 }

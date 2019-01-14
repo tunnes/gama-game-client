@@ -1,0 +1,36 @@
+@media only screen and (max-width: 1000px) {
+  .page__wrapper {
+    .message__wrapper,
+    .navigaton_bar__wrapper {
+      max-width: 95%;
+    }
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .page__wrapper {
+
+    .message__wrapper {
+      padding: 20px 15px 30px 15px;
+    }
+
+    .question {
+      &__header {
+        flex-flow: column-reverse;
+      }
+
+      &__title {
+        min-width: 100%;
+      }
+
+      &__category {
+        align-self: flex-end;
+        margin-bottom: 25px;
+      }
+
+      &__body {
+        width: 100%;
+      }
+    }
+  }
+}
